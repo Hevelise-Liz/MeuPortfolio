@@ -11,7 +11,7 @@ button.addEventListener('click', function() {
 });
 
 
-window.addEventListener('scroll', function () {
+/*window.addEventListener('scroll', function() {
     if (this.window.location.href > 0) return navbar.classList.add('active');
     return navbar.classList.remove('active');
-  });
+  });*/
