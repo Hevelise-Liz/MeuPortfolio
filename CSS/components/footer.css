@@ -1,0 +1,21 @@
+footer {
+  background-color: rgb(221, 214, 215);
+}
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+}
+
+footer .footer__content .footer__contact {
+  margin-top: 20px;
+}
+
+footer .footer__content .footer__contact span {
+  display: inline-block;
+  margin-top: 10px;
+}
