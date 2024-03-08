@@ -9,11 +9,19 @@
 
 .butter {
   font-size: 50px;
+ 
+}
+
+.butter img {
+
+width: 70px;
+
 }
 .navbar .navbar__content {
-  padding: 2rem 2rem 1rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .navbar .navbar__content .navbar__links li {
@@ -31,7 +39,7 @@
 }
 
 .navbar .navbar__content .navbar__links a:hover {
-  color: azure;
+  color: #5cb4ce;
 }
 
 .navbar .navbar__content .navbar__mobile.active,
