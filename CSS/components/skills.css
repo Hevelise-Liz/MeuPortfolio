@@ -22,14 +22,14 @@
 
 .skills .skills__content ul li .image-container {
   background-color: aliceblue;
-  padding: 2rem;
+  padding: 0.5rem;
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0.4rem 1rem salmon;
+border: 1px solid #ddd;
   margin: 0 auto;
 }
 

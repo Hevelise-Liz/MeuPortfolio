@@ -1,10 +1,15 @@
 .projects {
-  margin: 10rem 5rem 10rem 5rem;
+  margin: 10rem 5rem;
   scroll-margin-top: 15rem;
 }
 
+.video{
+
+
+}
+
 .projects .projects__content {
-  max-width: 56rem;
+  width: 50%;
   text-align: center;
   margin: 0 auto 6rem;
 }
@@ -21,6 +26,8 @@
 
 .projects ul li.projects__reversed-list {
   flex-direction: row-reverse;
+
+
 }
 
 .projects ul li:not(:last-of-type) {
@@ -28,8 +35,8 @@
 }
 
 .projects ul li .image img {
-  width: 80%;
-  height: auto;
+  width: 45%;
+  
 }
 
 .projects ul li .projects__info {
