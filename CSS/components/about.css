@@ -40,7 +40,7 @@
 
 /* Estilo da alça (thumb) da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-  background-color: #5cb4ce; /* Cor de fundo da alça */
+  background-color: #00c4cc; /* Cor de fundo da alça */
   border-radius: 1px; /* Raio de borda da alça */
 }
 
