@@ -1,0 +1,40 @@
+.skills {
+  scroll-margin-top: 5rem;
+}
+
+.skills .skills__content {
+  padding: 6rem 20px;
+  text-align: center;
+}
+
+.skills .skills__content .description {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.skills .skills__content ul li .image-container {
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem salmon;
+  margin: 0 auto;
+}
+
+.skills .skills__content ul li h3 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 2rem 0 1rem;
+}

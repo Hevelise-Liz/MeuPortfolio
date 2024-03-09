@@ -9,13 +9,10 @@
 
 .butter {
   font-size: 50px;
- 
 }
 
 .butter img {
-
-width: 70px;
-
+  width: 70px;
 }
 .navbar .navbar__content {
   padding: 1rem 2rem;
@@ -39,7 +36,7 @@ width: 70px;
 }
 
 .navbar .navbar__content .navbar__links a:hover {
-  color: #5cb4ce;
+  color: #fff;
 }
 
 .navbar .navbar__content .navbar__mobile.active,
@@ -47,12 +44,7 @@ width: 70px;
   display: none;
 }
 
-
-
-
-
-
-@media only screen and (max-width: 768px) {                            
+@media only screen and (max-width: 768px) {
   .navbar .navbar__content .navbar__links {
     display: none;
   }
@@ -93,5 +85,3 @@ width: 70px;
     text-align: center;
   }
 }
-
-
