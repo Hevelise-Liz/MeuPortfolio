@@ -16,6 +16,9 @@ body {
 
 ul {
   list-style: none;
+  line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 a {
@@ -27,6 +30,7 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   color: var(--primary-color);
+  line-height: 6rem;
 }
 
 .secondary-title {
@@ -46,9 +50,11 @@ h1 {
 
 p,
 .p {
-  font-weight: 500;
-  font-size: 1.8rem;
+
   line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+
 }
 
 p:not(:last-of-type),

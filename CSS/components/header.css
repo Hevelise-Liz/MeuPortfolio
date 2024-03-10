@@ -165,12 +165,13 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   scroll-margin-top: 20rem;
 }
 header .header__right {
   max-width: 62rem;
   flex: 1;
+  margin-top: 2.5rem;
 }
 
 header .header__right p {
@@ -183,38 +184,11 @@ header .header__left .header__image {
   line-height: 0;
 }
 
-/* borda em volta da imagem */
-header .header__left .header__image::after {
-  content: "";
-  display: block;
-  width: 90%;
-  height: 90.5%;
-  border: 3px solid salmon;
-  background: linear-gradient(-450deg, rgba(250, 128, 114, 0.361), #23a5d55e);
-  background-size: 400% 400%;
-  animation: gradient 3s ease infinite; /* Adicione a cor de fundo desejada */
-  position: absolute;
-  top: 4.6rem;
-  right: -1.5rem;
-  left: 5rem;
-
-  border-radius: 0.5rem;
-  z-index: -1;
-}
-
 header .header__left .header__image .liz {
   border-radius: 0.5rem;
 
-  width: 500px;
+  width: 560px;
   /* z-index: 10; */
-}
-
-/* desenhozinho por trás da foto */
-header .header__left .header__image .background {
-  position: absolute;
-  top: 5rem;
-  right: 5rem;
-  z-index: -1;
 }
 
 @media only screen and (max-width: 768px) {

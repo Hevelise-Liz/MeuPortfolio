@@ -1,6 +1,9 @@
 .skills {
   scroll-margin-top: 5rem;
-  background-color: #23a5d533;
+  background-image: url("../../assets/Design\ sem\ nome\ \(10\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .skills .skills__content {
