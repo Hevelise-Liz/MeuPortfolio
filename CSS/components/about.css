@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: 4rem;
-  margin: 10rem 0 8rem 1rem;
+  margin: 8rem 0 7rem 1rem;
 }
 
 .about .about__left {
@@ -30,7 +30,7 @@
 }
 
 .about .about__right .tartiary-title {
-  color: coral;
+  color: #d48c9b;
 }
 
 /* Estilos para a barra de rolagem */
@@ -40,7 +40,7 @@
 
 /* Estilo da alça (thumb) da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-  background-color: #00c4cc; /* Cor de fundo da alça */
+  background-color: var(--primary-color); /* Cor de fundo da alça */
   border-radius: 1px; /* Raio de borda da alça */
 }
 

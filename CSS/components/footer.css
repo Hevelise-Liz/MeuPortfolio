@@ -1,6 +1,5 @@
 footer {
   background-color: rgb(221, 214, 215);
-  padding-bottom: 30px;
 }
 footer .footer__content {
   text-align: center;
@@ -26,8 +25,8 @@ footer .footer__content .footer__contact {
   background: #e3edf7;
   padding: 0.4em;
   border-radius: 10px;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.15),
+    -3px -3px 5px -1px rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   margin: 0 10px 20px 10px;
@@ -54,4 +53,37 @@ footer .footer__content .footer__contact {
 
 .logo {
   width: 40px;
+}
+
+.contato {
+  margin-bottom: 1rem;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  color: var(--primary-color);
+}
+
+.linear {
+  background: linear-gradient(-450deg, salmon, #23a6d5);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 420px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .linear {
+    height: 500px;
+  }
 }

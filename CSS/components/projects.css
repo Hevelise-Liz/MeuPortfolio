@@ -22,6 +22,8 @@
   border-radius: 0.8rem;
   gap: 6rem;
   padding: 2rem 6rem;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.6) 0px -8px 16px -8px;
 }
 
 .projects ul li.projects__reversed-list {
@@ -29,7 +31,7 @@
 }
 
 .projects ul li:not(:last-of-type) {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .projects ul li .image img {

@@ -1,5 +1,6 @@
 .skills {
   scroll-margin-top: 5rem;
+  background-color: #23a5d533;
 }
 
 .skills .skills__content {
@@ -9,7 +10,7 @@
 
 .skills .skills__content .description {
   max-width: 56rem;
-  margin: 0 auto 6rem;
+  margin: 0 auto 5rem;
 }
 
 .skills .skills__content ul {
@@ -29,12 +30,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #ddd;
+  border: 1px solid salmon;
   margin: 0 auto;
 }
 
 .skills .skills__content ul li h3 {
   font-size: 1.6rem;
   font-weight: 900;
-  margin: 2rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
