@@ -16,9 +16,12 @@ button {
   box-shadow: 0 0 0 #fff;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: 0 0.4rem #dfd9d9;
   transition: transform 0.3s ease;
+  box-shadow: 0.25rem 0.25rem #000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+  
 }
 
 .star-1 {
@@ -89,9 +92,8 @@ button {
 
 button:hover {
   color: black;
-  box-shadow: 0 0 25px #fff;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ 
+
   transform: scale(1.1);
 }
 
@@ -187,7 +189,7 @@ header .header__left .header__image {
 header .header__left .header__image .liz {
   border-radius: 0.5rem;
 
-  width: 560px;
+  width: 530px;
   /* z-index: 10; */
 }
 
