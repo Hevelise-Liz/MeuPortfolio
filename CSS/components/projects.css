@@ -130,160 +130,32 @@
   margin: 0 6rem;
 }
 
-@media only screen and (max-width: 2010px) {
+@media only screen and (max-width: 2042px) {
   .cursos__content {
-    width: 85%;
+    width: 1750px;
   }
 }
 
-@media only screen and (max-width: 1882px) {
+@media only screen and (max-width: 1802px) {
   .cursos__content {
-    width: 90%;
+    width: 1730px;
   }
 }
 
-@media only screen and (max-width: 1778px) {
+@media only screen and (max-width: 1738px) {
   .cursos__content {
-    width: 95%;
+    width: 1640px;
   }
 }
 
-@media only screen and (max-width: 1682px) {
+@media only screen and (max-width: 1626px) {
   .cursos__content {
-    width: 100%;
+    width: 1165px;
   }
 }
 
-@media only screen and (max-width: 1606px) {
-  .cursos__content {
-    width: 72%;
-  }
-}
 
-@media only screen and (max-width: 1582px) {
-  .cursos__content {
-    width: 73%;
-  }
-}
 
-@media only screen and (max-width: 1558px) {
-  .cursos__content {
-    width: 74%;
-  }
-}
-
-@media only screen and (max-width: 1538px) {
-  .cursos__content {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 1514px) {
-  .cursos__content {
-    width: 76%;
-  }
-}
-
-@media only screen and (max-width: 1494px) {
-  .cursos__content {
-    width: 77%;
-  }
-}
-
-@media only screen and (max-width: 1474px) {
-  .cursos__content {
-    width: 78%;
-  }
-}
-@media only screen and (max-width: 1454px) {
-  .cursos__content {
-    width: 79%;
-  }
-}
-
-@media only screen and (max-width: 1438px) {
-  .cursos__content {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 1418px) {
-  .cursos__content {
-    width: 81%;
-  }
-}
-
-@media only screen and (max-width: 1406px) {
-  .cursos__content {
-    width: 82%;
-  }
-}
-
-@media only screen and (max-width: 1386px) {
-  .cursos__content {
-    width: 83%;
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  .cursos__content {
-    width: 84%;
-  }
-}
-
-@media only screen and (max-width: 1350px) {
-  .cursos__content {
-    width: 85%;
-  }
-}
-
-@media only screen and (max-width: 1338px) {
-  .cursos__content {
-    width: 86%;
-  }
-}
-
-@media only screen and (max-width: 1322px) {
-  .cursos__content {
-    width: 87%;
-  }
-}
-
-@media only screen and (max-width: 1306px) {
-  .cursos__content {
-    width: 88%;
-  }
-}
-
-@media only screen and (max-width: 1290px) {
-  .cursos__content {
-    width: 89%;
-  }
-}
-
-@media only screen and (max-width: 1274px) {
-  .cursos__content {
-    width: 90%;
-  }
-}
-
-@media only screen and (max-width: 1266px) {
-  .cursos__content {
-    width: 91%;
-  }
-}
-
-@media only screen and (max-width: 1246px) {
-  .cursos__content {
-    width: 92%;
-  }
-}
-
-@media only screen and (max-width: 1234px) {
-  .cursos__content {
-    width: 93%;
-  }
-}
 
 @media only screen and (max-width: 1222px) {
   .cursos__content {
