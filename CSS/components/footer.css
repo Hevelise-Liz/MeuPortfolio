@@ -64,7 +64,7 @@ footer .footer__content .footer__contact {
 }
 
 .linear {
-  background: linear-gradient(-450deg, rgba(250, 128, 114, 0.361), #23a5d55e);
+  background: linear-gradient(-450deg, rgba(250, 128, 114, 0.676), #7d99c8);
   background-size: 400% 400%;
   animation: gradient 3s ease infinite;
   height: 420px;

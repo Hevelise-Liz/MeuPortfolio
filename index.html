@@ -21,6 +21,7 @@
         <ul class="navbar__links">
           <li><a href="#header">Início</a></li>
           <li><a href="#about">Sobre</a></li>
+          <li><a href="#cursos">Cursos</a></li>
           <li><a href="#skills">Habilidades</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#footer">Contato</a></li>
@@ -257,6 +258,196 @@
       </div>
     </section>
 
+    <section id="cursos" class="cursos">
+      <div class="cursos__content max-widht">
+        <h2 class="secondary-title">Cursos 📚</h2>
+        <p class="description">
+          Aprender nunca é demais não é mesmo!? 😃
+          <br />
+          Abaixo mostro algumas das minhas certificações:
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div>
+          <div id="carrouselContainer" class="carrousel__promocao"></div>
+        
+          <script>
+            // Imagens
+            const img1 = "./assets/Serratec.jpg"; // Substitua com o caminho real da imagem
+            const img2 = "./assets/Excel.jpg";
+            const img3 = "./assets/Serratec.jpg";
+            const img4 = "./assets/Excel.jpg";
+       
+        
+            // Array de imagens
+            const images = [img1, img2, img3, img4];
+        
+            // Estado inicial
+            let currentIndex = 0;
+            let visibleImages = 3;
+            let highlightedIndex = null;
+            let intervalId = null;
+        
+            // Função para atualizar o carrossel
+            function updateCarrousel() {
+              const carrouselContainer = document.getElementById("carrouselContainer");
+              carrouselContainer.innerHTML = ""; // Limpar o conteúdo existente
+        
+              // Botão anterior
+              const prevButton = document.createElement("button");
+              prevButton.innerHTML = "<";
+              prevButton.className = "arrow-btn";
+              prevButton.addEventListener("click", goToPrevSlide);
+              carrouselContainer.appendChild(prevButton);
+        
+              // Container das imagens
+              const imagesContainer = document.createElement("div");
+              imagesContainer.className = "carrousel__images";
+              carrouselContainer.appendChild(imagesContainer);
+        
+              // Adicionar imagens visíveis ao container
+              for (let i = currentIndex; i < currentIndex + visibleImages; i++) {
+                const index = i % images.length; // Para looping contínuo das imagens
+                const img = document.createElement("img");
+                img.src = images[index];
+                img.alt = `Imagem ${index + 1}`;
+                img.className = index === highlightedIndex ? "highlighted" : "";
+                imagesContainer.appendChild(img);
+              }
+        
+              // Botão próximo
+              const nextButton = document.createElement("button");
+              nextButton.innerHTML = ">";
+              nextButton.className = "arrow-btn";
+              nextButton.addEventListener("click", goToNextSlide);
+              carrouselContainer.appendChild(nextButton);
+            }
+        
+            // Função para ir para o slide anterior
+            function goToPrevSlide() {
+              clearInterval(intervalId);
+              currentIndex = currentIndex === 0 ? images.length - visibleImages : currentIndex - 1;
+              updateCarrousel();
+              startInterval();
+            }
+        
+            // Função para ir para o próximo slide
+            function goToNextSlide() {
+              clearInterval(intervalId);
+              currentIndex = currentIndex === images.length - visibleImages ? 0 : currentIndex + 1;
+              updateCarrousel();
+              startInterval();
+            }
+        
+            // Função para iniciar o intervalo automático
+            function startInterval() {
+              intervalId = setInterval(goToNextSlide, 3000); // Avança automaticamente a cada 3 segundos
+            }
+        
+           
+        
+            // Iniciar o carrossel
+            updateCarrousel();
+            startInterval();
+        
+            // Lidar com redimensionamento da janela
+            window.addEventListener("resize", () => {
+              visibleImages = window.innerWidth < 700 ? 1 : 3;
+              updateCarrousel();
+            });
+          </script>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section>
+
     <section id="skills" class="skills">
       <div class="skills__content max-widht">
         <h2 class="secondary-title">Caixinha de ferramentas:</h2>
@@ -410,7 +601,7 @@
             ></iframe>
           </div>
           <div class="projects__info">
-            <h3 class="tertiary-title">Projeto Individual - Blog Tema Livre</h3>
+            <h3 class="tertiary-title">Projeto Pessoal - Blog Tema Livre</h3>
             <p>
               Desafio proposto pela Dev. Júlia Lima - Blog de tema livre
               (escolhi o tema "Astronauta") onde deveria conter:
@@ -436,7 +627,7 @@
             ></iframe>
           </div>
           <div class="projects__info">
-            <h3 class="tertiary-title">Projeto Individual - StarBucks</h3>
+            <h3 class="tertiary-title">Projeto Pessoal - StarBucks</h3>
             <p>
               O Projeto StarBucks foi dirigido por Rodolfo Mori & Dev Club, ao
               qual tive o prazer de fazer parte.<br />
@@ -467,7 +658,7 @@
               de aprender muito com meus parceiros mais experientes e também dar
               o meu melhor para que o resultado final fosse um sucesso!<br /><br />O
               projeto é uma plataforma completa de exercícios e avaliação física
-              online para pessoas PCD e não PCD. <br /><br />
+              online para pessoas PCD e não PCD. <br />
               Minha contribuição foi fazer a tela home e todas as suas
               funcionalidades e estilização.<br />
             </p>
@@ -542,7 +733,7 @@
 
               Utilizamos o framework React Native para desenvolver nossa loja
               virtual Mobile.<br />
-              <br />
+
               Uma adição importante foi a funcionalidade que permite aos
               colaboradores realizar login e cadastrar novos funcionários,
               tornando nossa aplicação ainda mais abrangente e útil.
@@ -555,7 +746,7 @@
     <footer id="footer">
       <section class="linear">
         <div class="footer__content mb-0">
-          <h2 class="contato">Contacte-me!</h2>
+          <h2 class="contato">Contacte-me! ✨</h2>
           <p class="mb-m">
             Caso tenha alguma dúvida ou queira conhecer mais sobre meu trabalho,
             abaixo estão minhas redes sociais e e-mail.
