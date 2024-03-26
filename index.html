@@ -267,184 +267,90 @@
           Abaixo mostro algumas das minhas certificações:
         </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div>
           <div id="carrouselContainer" class="carrousel__promocao"></div>
-        
+
           <script>
-            // Imagens
-            const img1 = "./assets/Serratec.jpg"; // Substitua com o caminho real da imagem
+            const img1 = "./assets/Serratec.jpg";
             const img2 = "./assets/Excel.jpg";
             const img3 = "./assets/Serratec.jpg";
             const img4 = "./assets/Excel.jpg";
-       
-        
-            // Array de imagens
+
             const images = [img1, img2, img3, img4];
-        
-            // Estado inicial
+
             let currentIndex = 0;
             let visibleImages = 3;
             let highlightedIndex = null;
             let intervalId = null;
-        
-            // Função para atualizar o carrossel
+
             function updateCarrousel() {
-              const carrouselContainer = document.getElementById("carrouselContainer");
-              carrouselContainer.innerHTML = ""; // Limpar o conteúdo existente
-        
-              // Botão anterior
+              const carrouselContainer =
+                document.getElementById("carrouselContainer");
+              carrouselContainer.innerHTML = "";
+
               const prevButton = document.createElement("button");
               prevButton.innerHTML = "<";
               prevButton.className = "arrow-btn";
               prevButton.addEventListener("click", goToPrevSlide);
               carrouselContainer.appendChild(prevButton);
-        
-              // Container das imagens
+
               const imagesContainer = document.createElement("div");
               imagesContainer.className = "carrousel__images";
               carrouselContainer.appendChild(imagesContainer);
-        
-              // Adicionar imagens visíveis ao container
-              for (let i = currentIndex; i < currentIndex + visibleImages; i++) {
-                const index = i % images.length; // Para looping contínuo das imagens
+
+              for (
+                let i = currentIndex;
+                i < currentIndex + visibleImages;
+                i++
+              ) {
+                const index = i % images.length;
                 const img = document.createElement("img");
                 img.src = images[index];
                 img.alt = `Imagem ${index + 1}`;
                 img.className = index === highlightedIndex ? "highlighted" : "";
                 imagesContainer.appendChild(img);
               }
-        
-              // Botão próximo
+
               const nextButton = document.createElement("button");
               nextButton.innerHTML = ">";
               nextButton.className = "arrow-btn";
               nextButton.addEventListener("click", goToNextSlide);
               carrouselContainer.appendChild(nextButton);
             }
-        
-            // Função para ir para o slide anterior
+
             function goToPrevSlide() {
               clearInterval(intervalId);
-              currentIndex = currentIndex === 0 ? images.length - visibleImages : currentIndex - 1;
+              currentIndex =
+                currentIndex === 0
+                  ? images.length - visibleImages
+                  : currentIndex - 1;
               updateCarrousel();
               startInterval();
             }
-        
-            // Função para ir para o próximo slide
+
             function goToNextSlide() {
               clearInterval(intervalId);
-              currentIndex = currentIndex === images.length - visibleImages ? 0 : currentIndex + 1;
+              currentIndex =
+                currentIndex === images.length - visibleImages
+                  ? 0
+                  : currentIndex + 1;
               updateCarrousel();
               startInterval();
             }
-        
-            // Função para iniciar o intervalo automático
+
             function startInterval() {
-              intervalId = setInterval(goToNextSlide, 3000); // Avança automaticamente a cada 3 segundos
+              intervalId = setInterval(goToNextSlide, 3000);
             }
-        
-           
-        
-            // Iniciar o carrossel
+
             updateCarrousel();
             startInterval();
-        
-            // Lidar com redimensionamento da janela
+
             window.addEventListener("resize", () => {
               visibleImages = window.innerWidth < 700 ? 1 : 3;
               updateCarrousel();
             });
           </script>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
     </section>
 
