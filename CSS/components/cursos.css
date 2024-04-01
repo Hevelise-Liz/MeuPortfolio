@@ -21,6 +21,8 @@
   height: auto;
 }
 
+
+
 @media only screen and (max-width: 1730px) {
   .cursos__content ul li IMG {
     width: 450px;
