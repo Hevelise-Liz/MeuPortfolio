@@ -261,110 +261,38 @@
     <section id="cursos" class="cursos">
       <div class="cursos__content max-widht">
         <h2 class="secondary-title">Cursos 📚</h2>
-        <p class="description">
+        <p class="description-cursos">
           Aprender nunca é demais não é mesmo!? 😃
           <br />
           Abaixo mostro algumas das minhas certificações:
         </p>
 
-      
+        <ul>
+          <li class="curso__item">
+            <div class="image-container-curso">
+              <img src="assets/firjan2.jpg" />
+            </div>
+          </li>
 
+          <li class="curso__item">
+            <div class="image-container-curso">
+              <img src="assets/serratec2.jpg" />
+            </div>
+          </li>
 
+          <li class="curso__item">
+            <div class="image-container-curso">
+              <img src="assets/turis2.jpg" />
+            </div>
+          </li>
 
-        <div>
-          <div id="carrouselContainer" class="carrousel__promocao"></div>
-
-          <script>
-            const img1 = "./assets/Serratec.jpg";
-            const img2 = "./assets/firjan.jpg";
-            const img3 = "./assets/turis.jpg";
-            const img4 = "./assets/Excel.jpg";
-
-            const images = [img1, img2, img3, img4];
-
-            let currentIndex = 0;
-            let visibleImages = 3;
-            let highlightedIndex = null;
-            let intervalId = null;
-
-            function updateCarrousel() {
-              const carrouselContainer =
-                document.getElementById("carrouselContainer");
-              carrouselContainer.innerHTML = "";
-
-              const prevButton = document.createElement("button");
-              prevButton.innerHTML = "<";
-              prevButton.className = "arrow-btn";
-              prevButton.addEventListener("click", goToPrevSlide);
-              carrouselContainer.appendChild(prevButton);
-
-              const imagesContainer = document.createElement("div");
-              imagesContainer.className = "carrousel__images";
-              carrouselContainer.appendChild(imagesContainer);
-
-              for (
-                let i = currentIndex;
-                i < currentIndex + visibleImages;
-                i++
-              ) {
-                const index = i % images.length;
-                const img = document.createElement("img");
-                img.src = images[index];
-                img.alt = `Imagem ${index + 1}`;
-                img.className = index === highlightedIndex ? "highlighted" : "";
-                imagesContainer.appendChild(img);
-              }
-
-              const nextButton = document.createElement("button");
-              nextButton.innerHTML = ">";
-              nextButton.className = "arrow-btn";
-              nextButton.addEventListener("click", goToNextSlide);
-              carrouselContainer.appendChild(nextButton);
-            }
-
-            function goToPrevSlide() {
-              clearInterval(intervalId);
-              currentIndex =
-                currentIndex === 0
-                  ? images.length - visibleImages
-                  : currentIndex - 1;
-              updateCarrousel();
-              startInterval();
-            }
-
-            function goToNextSlide() {
-              clearInterval(intervalId);
-              currentIndex =
-                currentIndex === images.length - visibleImages
-                  ? 0
-                  : currentIndex + 1;
-              updateCarrousel();
-              startInterval();
-            }
-
-            function startInterval() {
-              intervalId = setInterval(goToNextSlide, 3000);
-            }
-
-            updateCarrousel();
-            startInterval();
-
-            window.addEventListener("resize", () => {
-              visibleImages = window.innerWidth < 700 ? 1 : 3;
-              updateCarrousel();
-            });
-          </script>
-        </div>
+          <li class="curso__item">
+            <div class="image-container-curso">
+              <img src="assets/Excel2.jpg" />
+            </div>
+          </li>
+        </ul>
       </div>
-
-
-
-
-
-
-
-
-        </div>
     </section>
 
     <section id="skills" class="skills">
