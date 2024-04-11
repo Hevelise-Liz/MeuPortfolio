@@ -70,6 +70,36 @@ footer .footer__content .footer__contact {
   height: 420px;
 }
 
+.curriculo {
+  padding: 6px 10px;
+  background: #e3edf7;
+font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.15),
+    -3px -3px 5px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin: 8px 0 20px 0;
+  transition: transform 0.5s;
+
+}
+
+.curriculo:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(0.5em);
+}
+
+.footer__copyright{
+
+  margin-top: 0!important;
+}
+
+
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -82,8 +112,44 @@ footer .footer__content .footer__contact {
   }
 }
 
-@media only screen and (max-width: 360px) {
+
+@media only screen and (max-width: 424px) {
   .linear {
-    height: 500px;
+    height: 480px;
   }
 }
+
+
+
+@media only screen and (max-width: 360px) {
+  .linear {
+    height: 520px;
+  }
+  .logo {
+    width: 35px;
+  }
+
+  .curriculo {
+    padding: 4px 8px;
+
+  font-size: 14px;
+  margin: 5px 0 20px 0;
+  }
+
+  .btn{
+ margin: 0 6px 20px 6px;
+
+  }
+}
+
+
+@media only screen and (max-width: 315px) {
+  .linear {
+    height: 560px;
+  }
+
+  .logo {
+    width: 30px;
+  }
+}
+
