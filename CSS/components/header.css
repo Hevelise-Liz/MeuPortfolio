@@ -283,5 +283,6 @@ header .header__left .header__image .liz {
 
   header .header__right h1 {
     font-size: 3rem !important;
+    line-height: 1.3;
   }
 }
