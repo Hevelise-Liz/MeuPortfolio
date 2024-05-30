@@ -53,11 +53,9 @@ h1 {
 
 p,
 .p {
-
   line-height: 3rem;
   font-size: 1.8rem;
   font-weight: 600;
-
 }
 
 p:not(:last-of-type),
