@@ -11,7 +11,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  margin-top: 12rem;
+  margin-top: 11rem;
 }
 
 ul {
@@ -30,14 +30,16 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   color: var(--primary-color);
-  line-height: 6rem;
+  line-height: 5.5rem;
+  margin: -20px 0 25px 0;
 }
 
 .secondary-title {
   font-size: 4rem;
   font-weight: 900;
-  color: salmon;
+  color: rgb(255, 109, 93);
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .tertiary-title {
@@ -45,7 +47,8 @@ h1 {
   font-size: 3.2rem;
   font-weight: 900;
   line-height: 4.5rem;
-  color: salmon;
+  color: rgb(255, 109, 93);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 p,
