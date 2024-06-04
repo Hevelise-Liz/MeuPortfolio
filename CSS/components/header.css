@@ -189,9 +189,9 @@ header .header__left .header__image {
 
 header .header__left .header__image .liz {
   border-radius: 0.5rem;
-
+margin-top: 9rem;
   width: 530px;
-  /* z-index: 10; */
+
 }
 
 @media only screen and (max-width: 768px) {

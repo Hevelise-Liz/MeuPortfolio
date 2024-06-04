@@ -1,3 +1,16 @@
+.cursos {
+  margin: 4rem 0 6rem 0;
+  scroll-margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cursos__content {
+  width: 80%;
+  text-align: center;
+  margin: 0 6rem;
+}
+
 .cursos__content ul {
   display: flex;
   flex-wrap: wrap;
@@ -21,8 +34,23 @@
   height: auto;
 }
 
+@media only screen and (max-width: 2042px) {
+  .cursos__content {
+    width: 1750px;
+  }
+}
 
+@media only screen and (max-width: 1802px) {
+  .cursos__content {
+    width: 1730px;
+  }
+}
 
+@media only screen and (max-width: 1738px) {
+  .cursos__content {
+    width: 1640px;
+  }
+}
 @media only screen and (max-width: 1730px) {
   .cursos__content ul li IMG {
     width: 300px;
@@ -30,43 +58,75 @@
   }
 }
 
-/* @media only screen and (max-width: 1626px) {
-  .cursos__content ul li IMG {
-    width: 500px;
-    height: auto;
+@media only screen and (max-width: 1626px) {
+  .cursos__content {
+    width: 1165px;
   }
-} */
+}
 
-/* @media only screen and (max-width: 554px) {
-  .cursos__content ul li IMG {
-    width: 400px;
-    height: auto;
+@media only screen and (max-width: 1222px) {
+  .cursos__content {
+    width: 678px;
   }
-} */
-
-/* @media only screen and (max-width: 458px) {
-  .cursos__content ul li IMG {
-    width: 300px;
-    height: auto;
-  }
-} */
+}
 
 @media only screen and (max-width: 790px) {
-
-
   .cursos__content ul li IMG {
     width: 350px;
     height: auto;
   }
-
-
-
 }
 
+@media only screen and (max-width: 678px) {
+  .cursos__content {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 646px) {
+  .cursos__content {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  .cursos__content {
+    width: 540px;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .cursos__content {
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  .cursos__content {
+    width: 442px;
+  }
+
+  .description {
+    display: flex;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .cursos__content {
+    width: 350px;
+  }
+}
 
 @media only screen and (max-width: 410px) {
   .cursos__content ul li IMG {
     width: 200px;
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .cursos__content {
+    width: 290px;
   }
 }
