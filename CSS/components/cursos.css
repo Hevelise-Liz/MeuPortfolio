@@ -1,8 +1,12 @@
 .cursos {
-  margin: 4rem 0 6rem 0;
+  padding: 4rem 0 6rem 0;
   scroll-margin-top: 15rem;
   display: flex;
   justify-content: center;
+  background-image: url("../../assets/marble_web.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cursos__content {
@@ -33,6 +37,10 @@
   width: 350px;
   height: auto;
 }
+
+
+
+
 
 @media only screen and (max-width: 2042px) {
   .cursos__content {

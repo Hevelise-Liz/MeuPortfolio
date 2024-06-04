@@ -32,14 +32,15 @@ h1 {
   color: var(--primary-color);
   line-height: 5.5rem;
   margin: 8rem 0 25px 0;
+
 }
 
 .secondary-title {
   font-size: 4rem;
   font-weight: 900;
-  color: rgb(255, 109, 93);
+  color: var(--primary-color);
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
 }
 
 .tertiary-title {
@@ -47,8 +48,8 @@ h1 {
   font-size: 3.2rem;
   font-weight: 900;
   line-height: 4.5rem;
-  color: rgb(255, 109, 93);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: var(--primary-color);
+
 }
 
 p,

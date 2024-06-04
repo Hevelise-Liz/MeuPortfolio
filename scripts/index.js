@@ -5,3 +5,5 @@ const button = document.querySelector(".burger");
 button.addEventListener("click", function () {
   mobileNavbar.classList.toggle("active");
 });
+
+

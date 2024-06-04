@@ -27,6 +27,7 @@
   display: inline-block;
   font-size: 21px;
   font-weight: 600;
+  color: var(--primary-color);
 }
 
 .navbar .navbar__content .navbar__links li:not(:last-of-type) {

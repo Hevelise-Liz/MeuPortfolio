@@ -6,6 +6,8 @@
 .video {
   width: 540px;
   height: 360px;
+  border-radius: 8px;
+  
 }
 
 .projects .projects__content {

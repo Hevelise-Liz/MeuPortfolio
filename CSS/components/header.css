@@ -20,8 +20,7 @@ button {
   transition: transform 0.3s ease;
   box-shadow: 0.25rem 0.25rem #000;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164);
-margin-top: 10px;
-  
+  margin-top: 10px;
 }
 
 .star-1 {
@@ -92,8 +91,6 @@ margin-top: 10px;
 
 button:hover {
   color: black;
- 
-
   transform: scale(1.1);
 }
 
@@ -168,16 +165,14 @@ header {
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
-  scroll-margin-top: 20rem;
 }
 header .header__right {
-  max-width: 62rem;
+  max-width: 65rem;
   flex: 1;
   margin-top: 2.5rem;
 }
 
 header .header__right p {
-
   margin-bottom: 1.5rem;
   max-width: 50rem;
   font-size: 1.9rem;
@@ -189,9 +184,8 @@ header .header__left .header__image {
 
 header .header__left .header__image .liz {
   border-radius: 0.5rem;
-margin-top: 9rem;
-  width: 530px;
-
+  margin-top: 9rem;
+  width: 520px;
 }
 
 @media only screen and (max-width: 768px) {

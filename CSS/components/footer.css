@@ -1,10 +1,11 @@
 footer {
+  margin-top: 6rem;
   background-color: rgb(221, 214, 215);
 }
 footer .footer__content {
   text-align: center;
-  padding: 6rem 2rem 1rem;
-  max-width: 90rem;
+  padding: 3.5rem 2rem 0 2rem;
+
   margin: auto;
 }
 
@@ -23,7 +24,7 @@ footer .footer__content .footer__contact {
   display: grid;
   place-items: center;
   background: #e3edf7;
-  padding: 0.4em;
+  padding: 0.3em;
   border-radius: 10px;
 
   border: 1px solid rgba(0, 0, 0, 0);
@@ -38,7 +39,7 @@ footer .footer__content .footer__contact {
     -0.5px -0.5px 0px rgba(255, 255, 255, 1),
     0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transform: translateY(0.5em);
+
 }
 
 .btn svg {
@@ -51,7 +52,7 @@ footer .footer__content .footer__contact {
 }
 
 .logo {
-  width: 40px;
+  width: 30px;
 }
 
 .contato {
@@ -60,24 +61,25 @@ footer .footer__content .footer__contact {
   font-weight: 900;
   line-height: 4.5rem;
   color: var(--primary-color);
+
 }
 
 .linear {
   background: linear-gradient(-450deg, rgba(250, 128, 114, 0.676), #7d99c8);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
-  height: 400px;
+  height: 350px;
 }
 
 .curriculo {
-  padding: 6px 10px;
+  padding: 3px 15px;
   background: #e3edf7;
 font-size: 16px;
   border-radius: 10px;
  
   border: 1px solid rgba(0, 0, 0, 0);
   cursor: pointer;
-  margin: 8px 0 20px 0;
+  margin: 2px 0 30px 0;
   transition: transform 0.5s;
 
 }
@@ -88,7 +90,7 @@ font-size: 16px;
     -0.5px -0.5px 0px rgba(255, 255, 255, 1),
     0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transform: translateY(0.5em);
+
 }
 
 
