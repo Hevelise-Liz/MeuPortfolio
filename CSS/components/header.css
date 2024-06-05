@@ -174,8 +174,8 @@ header .header__right {
 
 header .header__right p {
   margin-bottom: 1.5rem;
-  max-width: 50rem;
-  font-size: 1.9rem;
+  max-width: 60rem;
+  font-size: 2.1rem;
 }
 header .header__left .header__image {
   position: relative;
@@ -184,7 +184,7 @@ header .header__left .header__image {
 
 header .header__left .header__image .liz {
   border-radius: 0.5rem;
-  margin-top: 9rem;
+  margin-top: 10rem;
   width: 520px;
 }
 

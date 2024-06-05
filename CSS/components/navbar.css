@@ -5,8 +5,8 @@
   width: 100%;
   z-index: 10;
   background-color: darksalmon;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.3) 0px -8px 16px -8px;
+  box-shadow: rgb(0, 0, 0) 0px 8px 16px -8px,
+    rgb(0, 0, 0) 0px -8px 16px -8px;
 }
 
 .butter {
@@ -17,7 +17,7 @@
   width: 70px;
 }
 .navbar .navbar__content {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -31,7 +31,7 @@
 }
 
 .navbar .navbar__content .navbar__links li:not(:last-of-type) {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .navbar .navbar__content .navbar__links a {
