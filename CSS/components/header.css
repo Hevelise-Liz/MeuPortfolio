@@ -170,6 +170,10 @@ header .header__right {
   max-width: 65rem;
   flex: 1;
   margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly !important;
+  margin-top: 10rem;
 }
 
 header .header__right p {
