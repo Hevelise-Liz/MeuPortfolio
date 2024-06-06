@@ -246,7 +246,10 @@ header .header__left .header__image .liz {
     margin: 0 2rem 0 0;
   }
 
-
+  header .header__right {
+  
+    margin-top: 0;
+  }
 
 }
 
