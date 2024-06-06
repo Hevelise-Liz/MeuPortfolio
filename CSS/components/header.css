@@ -192,6 +192,7 @@ header .header__left .header__image .liz {
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+  
 }
 
 @media only screen and (max-width: 1290px) {
@@ -240,6 +241,9 @@ header .header__left .header__image .liz {
   .header__right {
     margin: 0 2rem 0 0;
   }
+
+
+
 }
 
 @media only screen and (max-width: 565px) {

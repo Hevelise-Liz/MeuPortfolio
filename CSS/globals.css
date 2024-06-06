@@ -31,7 +31,7 @@ h1 {
   font-weight: 700;
   color: var(--primary-color);
   line-height: 5.5rem;
-  margin: 8rem 0 25px 0;
+  margin: 0 0 25px 0;
 
 }
 
@@ -63,3 +63,4 @@ p:not(:last-of-type),
 .p:not(:last-of-type) {
   margin-bottom: 2rem;
 }
+
