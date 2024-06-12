@@ -68,7 +68,7 @@ footer .footer__content .footer__contact {
   background: linear-gradient(-450deg, rgba(250, 128, 114, 0.676), #7d99c8);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
-  height: 350px;
+  height: 290px;
 }
 
 .curriculo {
@@ -112,31 +112,36 @@ font-size: 16px;
 
 @media only screen and (max-width: 676px) {
   .linear {
-    height: 430px;
+    height: 330px;
   }
 }
 
 
-@media only screen and (max-width: 423px) {
+@media only screen and (max-width: 439px) {
   .linear {
-    height: 450px;
+    height: 340px;
   }
 }
 
+@media only screen and (max-width: 424px) {
+  .linear {
+    height: 370px;
+  }
+}
 
 @media only screen and (max-width: 389px) {
   .linear {
-    height: 480px;
+    height: 380px;
   }
 }
 
 
 @media only screen and (max-width: 360px) {
   .linear {
-    height: 510px;
+    height: 410px;
   }
   .logo {
-    width: 35px;
+    width: 30px;
   }
 
   .curriculo {
@@ -153,13 +158,30 @@ font-size: 16px;
 }
 
 
-@media only screen and (max-width: 315px) {
+@media only screen and (max-width: 316px) {
   .linear {
-    height: 560px;
+    height: 450px;
   }
 
   .logo {
-    width: 30px;
+    width: 25px;
   }
 }
 
+
+@media only screen and (max-width: 273px) {
+  .linear {
+    height: 460px;
+  }
+
+  .logo {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 257px) {
+  .linear {
+    height: 490px;
+  }
+
+}
