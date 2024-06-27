@@ -165,6 +165,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+
 }
 header .header__right {
   max-width: 65rem;
@@ -188,8 +189,8 @@ header .header__left .header__image {
 }
 
 header .header__left .header__image .liz {
-  border-radius: 0.5rem;
-  margin-top: 10rem;
+
+  margin-top: 12rem;
   width: 520px;
 }
 
