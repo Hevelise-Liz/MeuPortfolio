@@ -34,10 +34,12 @@
 }
 
 .card-project {
-  background-image: url("../../assets/branco.jpg");
+  /* background-image: url("../../assets/branco.jpg"); */
+  background-color: aliceblue;
   background-size: cover;
   height: 100%;
   width: 300px !important;
+  min-height: 510px;
   padding: 30px;
   margin: 20px 5px;
   display: flex;

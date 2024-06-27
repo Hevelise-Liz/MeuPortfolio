@@ -19,8 +19,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  gap: 2rem;
+width: 90%;
+  gap: 3rem;
+  margin: auto;
 }
 
 .skills .skills__content ul li .image-container {
