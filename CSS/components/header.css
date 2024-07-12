@@ -165,7 +165,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
-
 }
 header .header__right {
   max-width: 65rem;
@@ -181,7 +180,6 @@ header .header__right p {
   margin-bottom: 1.5rem;
   max-width: 60rem;
   font-size: 2.1rem;
-  
 }
 header .header__left .header__image {
   position: relative;
@@ -189,7 +187,6 @@ header .header__left .header__image {
 }
 
 header .header__left .header__image .liz {
-
   margin-top: 12rem;
   width: 520px;
 }
@@ -198,7 +195,6 @@ header .header__left .header__image .liz {
   header .header__left p {
     margin: 2rem auto 4rem;
   }
-  
 }
 
 @media only screen and (max-width: 1290px) {
@@ -249,10 +245,8 @@ header .header__left .header__image .liz {
   }
 
   header .header__right {
-  
     margin-top: 0;
   }
-
 }
 
 @media only screen and (max-width: 565px) {

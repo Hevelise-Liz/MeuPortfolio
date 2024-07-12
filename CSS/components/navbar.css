@@ -5,8 +5,7 @@
   width: 100%;
   z-index: 10;
   background-color: darksalmon;
-  box-shadow: rgb(0, 0, 0) 0px 8px 16px -8px,
-    rgb(0, 0, 0) 0px -8px 16px -8px;
+  box-shadow: rgb(0, 0, 0) 0px 8px 16px -8px, rgb(0, 0, 0) 0px -8px 16px -8px;
 }
 
 .butter {
@@ -35,7 +34,7 @@
 }
 
 .navbar .navbar__content .navbar__links a {
-  padding: 0.4rem 1rem ;
+  padding: 0.4rem 1rem;
   display: inline-block;
 }
 
@@ -88,10 +87,8 @@
   }
 }
 
-
 @media only screen and (max-width: 280px) {
   .butter img {
     width: 50px;
   }
-
 }

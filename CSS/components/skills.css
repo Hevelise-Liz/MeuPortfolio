@@ -1,7 +1,6 @@
 .skills {
   scroll-margin-top: 5rem;
 
-
   height: 100%;
 }
 
@@ -19,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-width: 90%;
+  width: 90%;
   gap: 3rem;
   margin: auto;
 }
@@ -36,7 +35,7 @@ width: 90%;
   border: 3px solid salmon;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px -8px,
-  rgba(0, 0, 0, 0.6) 0px -8px 16px -8px;
+    rgba(0, 0, 0, 0.6) 0px -8px 16px -8px;
 }
 
 .skills .skills__content ul li h3 {

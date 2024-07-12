@@ -6,11 +6,6 @@
   flex-direction: column;
 }
 
-
-
-
-
-
 .container-projects {
   height: 100%;
   width: 100%;
@@ -28,7 +23,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
 
   padding: 0 20px;
 }
@@ -81,9 +75,6 @@
   transition: transform 0.3s ease-out;
   cursor: pointer;
 }
-
-
-
 
 .projects .projects__content {
   width: 50%;
