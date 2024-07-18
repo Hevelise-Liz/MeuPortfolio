@@ -1,4 +1,4 @@
-# Meu Portfólio:
+# Meu Portfólio 🦋
 
 ### Um projeto autoral feito com muito carinho para ser abastecido com cada nova conquista! 
 
