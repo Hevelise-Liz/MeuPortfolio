@@ -1,6 +1,62 @@
-body {
-  background-color: rgba(250, 128, 114, 0.122);
+
+
+.patterns {
+  height: 24vh;
+
 }
+
+
+
+
+svg text {
+
+  letter-spacing: 1px;
+  stroke:  salmon;
+  font-size: 45px;
+  font-weight: 700;
+  stroke-width: 2;
+ 
+  animation: textAnimate 4s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:#02073e;
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill:salmon;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------início botão----------------------- */
 

@@ -5,6 +5,10 @@
   font-family: var(--font-family);
 }
 
+body {
+  background-color: rgba(250, 128, 114, 0.122);
+}
+
 html {
   font-size: 62.5%;
 }
