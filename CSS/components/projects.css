@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
   border-radius: 10px;
   border: 3px solid salmon;
   box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px -8px,
@@ -49,6 +50,7 @@
   margin: 1.5rem 0 0.9rem 0;
   font-size: 2.2rem;
   color: var(--primary-color);
+  
 }
 
 .card-project p {
@@ -82,129 +84,3 @@
 
   margin: 4.5rem auto 3rem;
 }
-
-/* 
-
-
-
-
-.projects {
-  margin: 4rem 5rem;
-  scroll-margin-top: 15rem;
-}
-
-.video {
-  width: 540px;
-  height: 360px;
-  border-radius: 8px;
-}
-
-.projects .projects__content {
-  width: 50%;
-  text-align: center;
-  
-  margin: 0 auto 6rem;
-}
-
-.projects ul li {
-  background-image: url("../../assets/branco.jpg");
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 3px solid salmon;
-  border-radius: 0.8rem;
-  gap: 6rem;
-  padding: 4rem 6rem;
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.6) 0px -8px 16px -8px;
-}
-
-.projects ul li.projects__reversed-list {
-  flex-direction: row-reverse;
-}
-
-.projects ul li:not(:last-of-type) {
-  margin-bottom: 5rem;
-}
-
-.projects ul li .image img {
-  width: 45%;
-}
-
-.projects ul li .projects__info {
-  width: 45%;
-}
-
-.projects ul li .projects__info p {
-  margin: 1rem 0 1rem;
-}
-
-@media only screen and (max-width: 1066px) {
-  .projects__content {
-    width: 80% !important;
-  }
-}
-
-@media only screen and (max-width: 1135px) {
-  .projects ul li,
-  .projects ul li.projects__reversed-list {
-    flex-direction: column;
-  }
-
-  .projects ul li .projects__info {
-    width: 80%;
-    justify-content: center !important;
-    text-align: center !important;
-  }
-
-  .video {
-    margin-top: 3rem;
-  }
-}
-
-@media only screen and (max-width: 810px) {
-  .projects ul li {
-    padding: 0 !important;
-    gap: 2rem !important;
-  }
-
-  .projects ul li .projects__info {
-    width: 90% !important;
-  }
-}
-
-@media only screen and (max-width: 710px) {
-  .video {
-    width: 440px;
-    height: 260px;
-  }
-
-  .projects__content {
-    width: 99% !important;
-  }
-}
-
-@media only screen and (max-width: 590px) {
-  .video {
-    width: 400px;
-    height: 220px;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .video {
-    width: 300px;
-    height: 180px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .video {
-    width: 200px;
-    height: 150px;
-  }
-
-  .projects {
-    margin: 4rem 2rem !important;
-  }
-} */
