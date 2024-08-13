@@ -1,7 +1,6 @@
-#projects {
+/* #projects {
   height: auto;
   width: 100%;
-
   display: flex;
   flex-direction: column;
 }
@@ -28,7 +27,6 @@
 }
 
 .card-project {
-  /* background-image: url("../../assets/branco.jpg"); */
   background-color: aliceblue;
   background-size: cover;
   height: 100%;
@@ -80,6 +78,365 @@
 .projects .projects__content {
   width: 50%;
   text-align: center;
-
   margin: 4.5rem auto 3rem;
+}
+
+
+ */
+
+#projects {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-projects {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  height: auto;
+  width: 86.8%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 0 20px;
+}
+
+.card-project {
+  /* background-image: url("../../assets/branco.jpg"); */
+  background-color: aliceblue;
+  background-size: cover;
+  height: 100%;
+  width: 25.5% !important;
+  min-height: 300px !important;
+  padding: 30px 30px 15px 30px;
+  margin: 20px 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: 3px solid salmon;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.6) 0px -8px 16px -8px;
+}
+
+.card-project h3 {
+  margin: 1.5rem 0 0.9rem 0;
+  font-size: 2.2rem;
+  color: var(--primary-color);
+}
+
+.image-project {
+  height: 190px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+  transition: transform 0.3s ease-out;
+  cursor: pointer;
+}
+
+.projects .projects__content {
+  width: 50%;
+  text-align: center;
+  margin: 4.5rem auto 3rem;
+}
+
+@media only screen and (max-width: 2150px) {
+  .swiper {
+    width: 56%;
+  }
+
+  .card-project {
+    width: 25.5% !important;
+  }
+}
+
+@media only screen and (max-width: 2082px) {
+  .swiper {
+    width: 58%;
+  }
+}
+@media only screen and (max-width: 2006px) {
+  .swiper {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1938px) {
+  .swiper {
+    width: 63.5%;
+  }
+}
+
+@media only screen and (max-width: 1842px) {
+  .swiper {
+    width: 66.5%;
+  }
+}
+
+@media only screen and (max-width: 1746px) {
+  .swiper {
+    width: 70.5%;
+  }
+}
+
+@media only screen and (max-width: 1654px) {
+  .swiper {
+    width: 74.5%;
+  }
+}
+
+@media only screen and (max-width: 1562px) {
+  .swiper {
+    width: 77.5%;
+  }
+}
+
+@media only screen and (max-width: 1502px) {
+  .swiper {
+    width: 80.5%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .swiper {
+    width: 84.5%;
+  }
+}
+
+@media only screen and (max-width: 1382px) {
+  .swiper {
+    width: 86.5%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .swiper {
+    width: 87%;
+  }
+}
+
+@media only screen and (max-width: 1338px) {
+  .swiper {
+    width: 72%;
+  }
+
+  .card-project {
+    width: 25.5% !important;
+    padding: 20px 20px 8px 20px;
+    min-height: 330px !important;
+  }
+}
+@media only screen and (max-width: 1258px) {
+  .swiper {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1258px) {
+  .swiper {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1207px) {
+  .swiper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .swiper {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .swiper {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 1022px) {
+  .swiper {
+    width: 79.5%;
+  }
+
+  .card-project {
+    width: 24.5% !important;
+    min-height: 300px !important;
+  }
+
+  .image-project {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 1014px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    width: 28.5% !important;
+    min-height: 250px !important;
+    flex: 0 0 40%;
+  }
+}
+
+@media only screen and (max-width: 942px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    width: 25.5% !important;
+    min-height: 270px !important;
+    flex: 0 0 39%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    min-height: 270px !important;
+    flex: 0 0 38%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    min-height: 300px !important;
+    flex: 0 0 36%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .swiper {
+    width: 58%;
+  }
+
+  .card-project {
+    padding: 30px 30px 15px 30px;
+    min-height: 290px !important;
+    flex: 0 0 81.5%;
+  }
+
+  .image-project {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .swiper {
+    width: 58%;
+  }
+
+  .card-project {
+    flex: 0 0 79.5%;
+  }
+
+  .image-project {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 586px) {
+  .swiper {
+    width: 58%;
+  }
+
+  .card-project {
+    min-height: 320px !important;
+    flex: 0 0 76.5%;
+  }
+
+  .image-project {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 506px) {
+  .swiper {
+    width: 58%;
+  }
+
+  .card-project {
+    padding: 20px 20px 8px 20px;
+    flex: 0 0 75.5%;
+  }
+
+  .image-project {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    min-height: 300px !important;
+    flex: 0 0 75.5%;
+  }
+
+  .image-project {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 312px) {
+  .swiper {
+    width: 70%;
+  }
+
+  .card-project {
+    min-height: 330px !important;
+    flex: 0 0 75.5%;
+  }
+
+  .image-project {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 292px) {
+  .swiper {
+    width: 80%;
+  }
+
+  .card-project {
+    width: 25.5% !important;
+    min-height: 330px !important;
+    flex: 0 0 75.5%;
+  }
+
+  .image-project {
+    height: 130px;
+  }
 }
