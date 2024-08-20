@@ -177,10 +177,6 @@ header .header__right p {
   max-width: 60rem;
   font-size: 2.1rem;
 }
-header .header__left .header__image {
-  position: relative;
-  line-height: 0;
-}
 
 header .header__left .header__image .liz {
   margin-top: 12rem;

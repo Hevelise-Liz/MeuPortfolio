@@ -43,3 +43,47 @@
   font-weight: 900;
   margin: 1rem 0 1rem;
 }
+
+@media only screen and (max-width: 270px) {
+  .skills .skills__content ul li .image-container {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .skills .skills__content ul li .image-container img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .skills .skills__content ul {
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+
+  .skills .skills__content ul li h3 {
+    width: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 208px) {
+  .skills .skills__content ul {
+    justify-content: flex-start;
+  }
+
+  .skills .skills__content ul li {
+    display: flex !important;
+    flex-direction: row;
+
+    align-items: center;
+  }
+
+  .skills .skills__content ul li h3 {
+    margin: 0 0 0 15px;
+  }
+
+  .skills .skills__content .description {
+    max-width: 56rem;
+    margin: 0 auto 3rem;
+  }
+}

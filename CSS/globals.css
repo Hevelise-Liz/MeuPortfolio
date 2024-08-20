@@ -63,3 +63,11 @@ p:not(:last-of-type),
 .p:not(:last-of-type) {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 292px) {
+  .secondary-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+}
